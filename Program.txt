@@ -1,0 +1,49 @@
+
+#include <iostream>
+using namespace std;
+
+// Variable declarations
+int age = 21;
+float height = 1.85;
+double salary = 4500.50;
+char grade = 'A';
+bool employed = true;
+string name = "Daniel";
+
+// Arithmetic operations
+int sum = age + 10;
+int difference = age - 5;
+int product = age * 2;
+int division = age / 2;
+int remainder = age % 3;
+
+// Conditional statements
+if (age >= 18 && employed == true) {
+    cout << "Adult" << endl;
+}
+else {
+    cout << "Minor" << endl;
+}
+
+// Loops
+int i = 0;
+
+while (i < 5) {
+    i++;
+}
+
+for (int j = 0; j < 10; j++) {
+    sum += j;
+}
+
+/* Block comment
+   Testing multiline comments */
+
+// Additional operators
+int x = 10;
+x--;
+x *= 2;
+x /= 4;
+x %= 3;
+
+return 0;
